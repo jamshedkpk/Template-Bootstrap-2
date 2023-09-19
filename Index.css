@@ -1,0 +1,287 @@
+.titlebar
+{
+background-color:darkolivegreen;
+color:white;
+font-style: italic;
+font-family: calibri;
+font-size:16px;
+text-align: left;
+}
+.titlebar span
+{
+margin:10px 10px 0 10px;
+}
+@media(max-width:500px)
+{
+.titlebar
+{
+font-size:14px;
+}
+.header img
+{
+height: 100px;
+width: 200px;
+}
+.section-1 .container-fluid
+{
+padding:5px;
+}
+.section-1 .container-fluid .img-responsive
+{
+height: 200px;
+width: 200px;
+}
+.section-1 .container-fluid .row h2
+{
+font-size: 18px;
+}
+.section-1 .container-fluid .row p
+{
+font-size: 14px;
+}
+.section-1 .container-fluid .btn
+{
+margin-bottom: 10px;
+}
+.contact .container-fluid .input-group
+{
+margin-top: 10px;
+}
+.service .container-fluid .row .col-md-3
+{
+padding:0;
+}
+.service .container-fluid .row .package
+{
+margin-top: 20px;
+padding: 10px;
+}
+.service .container-fluid .row .package .btn
+{
+width: 80px;
+}
+}
+.header
+{
+background-color:green;
+padding:20px 0 20px 0;
+}
+.navbar-default
+{
+background-color:green;
+border:none;
+}
+.navbar-default .navbar-nav li a
+{
+opacity: 0.7;
+color: white;
+font-size:16px;
+font-family: calibri;
+font-style: italic;
+}
+.navbar-default .navbar-nav li a:hover
+{
+color:white;
+font-size:16px;
+font-family: calibri;
+font-style: italic;
+opacity: 1;
+background-color: darkgreen;
+}
+.section-1 .container-fluid
+{
+height: 600px;
+background-image: url("Images/image (335).jpg");
+padding: 20px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.section-1 .container-fluid h2
+{
+font-size: 30px;
+color:white;
+font-weight: 700;
+font-family: calibri;
+text-align: center;
+}
+.section-1 .container-fluid p
+{
+font-size: 16px;
+color:white;
+font-weight: 700;
+font-family: calibri;
+text-align: justify;
+}
+.section-1 .container-fluid .mybuttons
+{
+text-align: center;
+}
+.section-1 .container-fluid .btn
+{
+width: 120px;
+background-color: #6FA303;
+}
+.section-1 .container-fluid .btn:hover
+{
+background-color: #008000;
+}
+.section-1 .container-fluid img
+{
+height: 300px;
+width:400px;
+border-radius: 30px;
+margin-top:30px;
+}
+.slider .container-fluid
+{
+background-color: #489BCD;
+padding:10px 40px 20px 40px;
+}
+.slider .container-fluid h2
+{
+text-align: center;
+font-size: 25px;
+font-family: calibri;
+color:white;
+}
+.slider .container-fluid p
+{
+text-align: justify;
+font-size: 16px;
+font-family: calibri;
+color:white;
+padding-bottom: 10px;
+}
+.slider .container-fluid img
+{
+height: 300px;
+width: 800px;
+border:1px solid white;
+}
+.service .container-fluid
+{
+background-color: white;
+padding: 20px 60px 20px 60px;
+}
+.service .container-fluid h2
+{
+font-size: 20px;
+font-style: italic;
+font-family: calibri;
+text-align: center;
+font-style: italic;
+}
+.service .container-fluid p
+{
+font-size: 16px;
+font-style: italic;
+font-family: calibri;
+text-align: justify;
+font-style: italic;
+}
+.service .container-fluid .package
+{
+text-align: center;
+background-color: #489BCD;
+border-radius: 20px;
+padding: 20px;
+color: white;
+font-style: italic;
+}
+.service .container-fluid .package span
+{
+height: 40px;
+width: 40px;
+line-height: 40px;
+text-align: center;
+background-color: white;
+color:489BCD;
+border-radius: 30px;
+}
+.service .container-fluid .package .btn
+{
+width: 120px;
+background-color:white;
+color:black;
+border-radius: 0;
+}
+.service .container-fluid .package .btn:hover
+{
+background-color: aliceblue;
+}
+.contact .container-fluid
+{
+padding: 15px;
+}
+.contact .container-fluid h2
+{
+font-size: 20px;
+font-style: italic;
+font-family: calibri;
+text-align: center;
+}
+.contact .container-fluid p
+{
+padding: 10px 40px 10px 40px;
+font-size: 16px;
+font-style: italic;
+font-family: calibri;
+text-align: justify;
+}
+.contact .container-fluid span
+{
+background-color: 489BCD;
+color:white;
+}
+.contact .container-fluid .btn
+{
+margin-top:10px;
+width: 120px;
+background-color: 489BCD;
+}
+.contact .container-fluid .btn:hover
+{
+background-color: darkblue;
+}
+.footer .container-fluid
+{
+background-color: darkgreen;
+color:white;
+text-align: center;
+padding: 20px 40px;
+}
+.footer .container-fluid h3
+{
+font-size: 20px;
+font-style: italic;
+font-family: calibri;
+font-weight: 600px;
+}
+.footer .container-fluid li
+{
+text-align: left;
+font-size: 16px;
+font-style: italic;
+font-family: calibri;
+font-weight: 600px;
+}
+.footer .container-fluid p
+{
+text-align: left;
+font-size: 16px;
+font-style: italic;
+font-family: calibri;
+font-weight: 600px;
+}
+.footer .container-fluid span
+{
+height: 30px;
+width: 30px;
+line-height: 30px;
+border: 1px solid white;
+background-color: #489BCD;
+color:white;
+border-radius: 30px;
+cursor:pointer;
+margin-bottom: 20px;
+}
